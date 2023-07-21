@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAF19351-5173-4EF1-80F4-9B11F0C548C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Boss_timer_by_Firgen_2</RootNamespace>
+    <AssemblyName>Boss timer by Firgen 2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mirovoi boss.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>51E8EBC5EED59E361C9ACD3AA29E1062D43B265A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Boss timer by Firgen 2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Novice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Novice.Designer.cs">
+      <DependentUpon>Novice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RvR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RvR.Designer.cs">
+      <DependentUpon>RvR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Novice.resx">
+      <DependentUpon>Novice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RvR.resx">
+      <DependentUpon>RvR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Boss timer by Firgen 2_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riolit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ogon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ogon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beilrok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adarog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karantal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruhoshlak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gordot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uldum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirovoi boss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filaken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sindragosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Джим.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maizot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tetis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venoksis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venoksis2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mandakir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zanzil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xairi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djindo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vodjaka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vodjaka2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\les.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\varoten.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perotarn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\romog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volrak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azshara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korantal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karsh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\led.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkurion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uldum1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uldun2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\husan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gilton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alakir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaktur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serdce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tenelov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kodo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atroks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\illuzionist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vozdux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zvezdochet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keltas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eranikus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nafra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drobitel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plevun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tikva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arbuzniy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maska.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maska22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korovnik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kelsii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barasii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4uba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ernoskalp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gakler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\npcNewOneStackItem15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mirovoi boss.ico" />
+    <None Include="Resources\npcMoreNew64Stack28.png" />
+    <None Include="Resources\npcMoreNew64Stack30.png" />
+    <None Include="Resources\npcMoreNew64Stack39.png" />
+    <None Include="Resources\npcMoreNew1Stack8.png" />
+    <None Include="Resources\npcMoreNew64Stack45.png" />
+    <None Include="Resources\npcMoreNew64Stack46.png" />
+    <None Include="Resources\npcMoreNew64Stack23.png" />
+    <None Include="Resources\npcMoreNew64Stack22.png" />
+    <None Include="Resources\npcMoreNew1Stack14.png" />
+    <None Include="Resources\npcMoreNew1Stack21.png" />
+    <None Include="Resources\tier86helm.png" />
+    <None Include="Resources\sandtier2helm.png" />
+    <None Include="Resources\sandmask1.png" />
+    <None Include="Resources\Скорпез.png" />
+    <None Include="Resources\setesh1.png" />
+    <None Include="Resources\Хрос.png" />
+    <None Include="Resources\Webp.net-gifmaker %282%291.gif" />
+    <None Include="Resources\Оракл.png" />
+    <None Include="Resources\Изономия.png" />
+    <None Include="Resources\Дамиан.png" />
+    <None Include="Resources\Эдрос.png" />
+    <None Include="Resources\Зияющий.png" />
+    <None Include="Resources\Иджу.png" />
+    <None Include="Resources\Хитхи.png" />
+    <None Include="Resources\Webp.net-gifmaker %282%29.gif" />
+    <None Include="Resources\Webp.net-gifmaker %281%29.gif" />
+    <None Include="Resources\serdce1.gif" />
+    <None Include="Resources\tier54chest.png" />
+    <None Include="Resources\tier44chest.png" />
+    <None Include="Resources\orfen.png" />
+    <None Include="Resources\belef.png" />
+    <None Include="Resources\molrang.png" />
+    <None Include="Resources\avanpost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

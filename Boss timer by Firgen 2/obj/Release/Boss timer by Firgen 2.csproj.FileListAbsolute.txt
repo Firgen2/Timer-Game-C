@@ -1,0 +1,32 @@
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.exe.config
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.exe
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.pdb
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.Properties.Resources.resources
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.exe
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.pdb
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.exe.manifest
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.application
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.exe.manifest
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.application
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.Print.resources
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.Novice.resources
+C:\Users\user\source\repos\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.RvR.resources
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.exe.config
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.exe.manifest
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.application
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.exe
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\bin\Release\Boss timer by Firgen 2.pdb
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.csproj.AssemblyReference.cache
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.Novice.resources
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.Print.resources
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.RvR.resources
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss_timer_by_Firgen_2.Properties.Resources.resources
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.csproj.GenerateResource.cache
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.csproj.CoreCompileInputs.cache
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.exe.manifest
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.application
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.exe
+C:\da\Boss timer by Firgen 2\Boss timer by Firgen 2\obj\Release\Boss timer by Firgen 2.pdb

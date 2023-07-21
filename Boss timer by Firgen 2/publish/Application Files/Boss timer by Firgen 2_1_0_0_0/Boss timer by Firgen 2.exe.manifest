@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Boss timer by Firgen 2.exe" version="1.0.0.0" publicKeyToken="ff393e570f5049ec" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="mirovoi boss.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Boss timer by Firgen 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Boss timer by Firgen 2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Boss timer by Firgen 2.exe" size="1937368">
+      <assemblyIdentity name="Boss timer by Firgen 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rJkdFMNPh1syhjIWGtwL9I1p7uIXG+pEcD+sjMRVaeU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Boss timer by Firgen 2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="mirovoi boss.ico" size="101951">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OvamTNGnCDC8AuWXoqcvZ8xuWLNKaR0x+AikGqr7KsA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-FTOAQ6D\user" issuerKeyHash="2ecc49752955144ef8d7ea15ecd894910dc0ad66" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y6kkW8z1Lz4ObShXpob6KhTFjneup+Dkbpk6VnwEQQQ=</DigestValue></Reference></SignedInfo><SignatureValue>LtARcOkTnud/xDBlTn/ry3shZXbskUpXU348T6kPLslAAw/LSJ9/hIoq0/vxvlYhBDvJSDwSWjHQiO7iLXI4HBIdqVOusN0g6qClkxbc1LpqiCZubXiZ8k/NSVp1oM+HO6ZxctPY6LTi3yFPpKZrOfS4qwPkR/SLTrSVjb0wjTQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ylh064Gx9kr8VrMUMkWTtTkFYMiotulT63lwIJo4koBTGOf6dcok85itFTchtp1b8TLnH6sZxwbMmsyaDI1wlslOABdsCa/DrpCVqNfyI0JfBBax/sXTi+xHKGnhQnzAZDgMVZFmt8ONcvvASifCQ6P9pkNHqQGDDpTTk2i9wck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0441047c563a996ee4e0a7ae778ec5142afa86a657286d0e3e2ff5cc5b24a9cb" Description="" Url=""><as:assemblyIdentity name="Boss timer by Firgen 2.exe" version="1.0.0.0" publicKeyToken="ff393e570f5049ec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-FTOAQ6D\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Pl39vdV/gCvlliUpna6wBuOew/ue8IgCFIWE4sO9j2U=</DigestValue></Reference></SignedInfo><SignatureValue>J2DRVw34ONO6MIBl5jx3uGeZzMd1OgblVg3CFpwvb5UkBTTZ1BlO1MojNr9O7qN9qf/i1Akhs2VZRe3MgqVvaQTHuXLtQBu0RUWkqcbs2SY/VQHZNLGVdwLBh5UBmi1HZMVyJq4P4OO8gxWRyF5vD5CvjYGwEES5VVHQRi5y7ak=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ylh064Gx9kr8VrMUMkWTtTkFYMiotulT63lwIJo4koBTGOf6dcok85itFTchtp1b8TLnH6sZxwbMmsyaDI1wlslOABdsCa/DrpCVqNfyI0JfBBax/sXTi+xHKGnhQnzAZDgMVZFmt8ONcvvASifCQ6P9pkNHqQGDDpTTk2i9wck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQYUXpRcVEnbRK84MWaiaWsDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEYAVABPAEEAUQA2AEQAXAB1AHMAZQByMB4XDTIxMDIxODE3MTMyMloXDTIyMDIxODIzMTMyMlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBGAFQATwBBAFEANgBEAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAylh064Gx9kr8VrMUMkWTtTkFYMiotulT63lwIJo4koBTGOf6dcok85itFTchtp1b8TLnH6sZxwbMmsyaDI1wlslOABdsCa/DrpCVqNfyI0JfBBax/sXTi+xHKGnhQnzAZDgMVZFmt8ONcvvASifCQ6P9pkNHqQGDDpTTk2i9wckCAwEAATANBgkqhkiG9w0BAQsFAAOBgQByiQcyIGnPXsk3yhBGaCByUIEjhsjMjL1NfiE7XdjHlrdjbfMl4z6N5cXz5VvTJXrq8gWqx2GS7KmaGjilMjn6yV1i5CednbcNoEagevVy+MioVkugiMfG/2CMfrYeVqZXxpJYtqfeHuh8AXOHuhdM54BDWdPTi9kuY+c3n8Bc/A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
